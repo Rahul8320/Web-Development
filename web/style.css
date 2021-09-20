@@ -1,0 +1,25 @@
+body
+{
+    background-color: cadetblue;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.larger
+{
+    font-size: larger;
+    color: blue;
+    font-style: italic;
+}
+.medium
+{
+    font-size: medium;
+}
+.small
+{
+    color: blueviolet;
+    font-size: small;
+}

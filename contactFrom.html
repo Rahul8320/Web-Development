@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactFrom.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <p id="mainHeading">
+                Contact Form
+            </p>
+                Please fill all the required fields below
+        </div>
+        <form action="#" method="post">
+            <p>Your Name: 
+                <input type="text" placeholder="Your Full Name" name="name" id="name" required>
+            </p>
+            <p>Your Email:
+                <input type="email" placeholder="Valid Email Address" name="email" id="email" required>
+            </p>
+            <p>Message:
+                <textarea name="message" id="message" cols="100" rows="10" required> </textarea>
+            </p>
+            <p>Attach File (Optional):
+                <input type="file" name="fine" id="file">
+            </p>
+            <p>Subject:
+                <input type="text" placeholder="Subject For Contact US" name="subject" id="subject" required>
+            </p>
+            <input type="submit" value="Send" id="submite">
+        </form>
+    </div>
+</body>
+</html>

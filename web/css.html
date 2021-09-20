@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>css.com</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function greet()
+        {
+            let name = document.querySelector('#name').value;
+            alert("Hello, "+name + "!");
+        }
+        function listen()
+        {
+            document.querySelector('form').addEventListener('submit', greet);
+        }
+        document.addEventListener('DOMContentLoaded', listen);
+    </script>
+    <body class="center">
+        <header class="larger">
+            Rahul Dey
+        </header>
+        <main class="medium">
+            Welcome to My webpage.
+            <form>
+                <input autocomplete="off" autofocus type="text" id="name" placeholder="What is your name?">
+                <input type="submit" value="Greet Me!">
+            </form>
+        </main>
+        <footer class="small">
+            Copyright &#169; | Rahul Dey | 2021-2022
+        </footer>
+    </body>
+</html>

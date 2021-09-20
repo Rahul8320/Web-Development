@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+.maindiv .form{
+  margin: 25px;
+  padding: 250px;
+}
+
+.default{
+  margin: 10px;
+  padding: 10px;
+}

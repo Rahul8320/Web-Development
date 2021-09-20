@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    font-family: ubuntu,'Times New Roman', Times, serif;
+    margin: 15px 30px;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 70%;
+    margin: auto;
+}
+
+.heading {
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(181, 212, 4, 0.514);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#mainHeading {
+    padding: 0%;
+    margin: 2%;
+    font-size: 40px;
+}
+
+input[type="submit"]{
+    background-color: rgba(181, 212, 4, 0.514);
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    font-family: ubuntu;
+    width: 30%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 5px;
+}

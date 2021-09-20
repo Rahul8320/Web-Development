@@ -1,0 +1,8 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri": "mysql+mysqlconnector://root:root@8320@localhost/flask_blog",
+        "about": "Hello, I am Rahul Dey the creater of the blogs."
+    }
+}

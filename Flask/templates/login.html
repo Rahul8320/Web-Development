@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Signin Coding Blogs</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}" />
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/signin.css') }}" rel="stylesheet">
+  </head>
+  <body >
+    <div class="maindiv">
+    <form class="form">
+        <img src="{{ url_for('static', filename='assets/login.ico') }}"  alt="" width="72" height="57">
+        <h1 >Please sign in</h1>
+
+        <div class="default">
+        <input type="email" id="email" name="email" placeholder="name@example.com">
+        </div>
+        <div class="default">
+        <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+
+        <div>
+        <label class="default">
+            <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        </div>
+        <button class="default" type="submit">Sign in</button>
+    </form>
+    </div>
+
+
+    
+  </body>
+</html>

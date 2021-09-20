@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Challange 2</title>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgba(116, 109, 109, 0.479);
+            font-family: "ubuntu";
+            font-size: 22px;
+        }
+        .column{
+            float: left;
+            width: 25%;
+            padding: 20px;
+            height: 200px;
+            border: 5px ridge royalblue;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (max-width:1001px) {
+            .column{
+                width: 50%;
+            }            
+        }
+        @media screen and (max-width: 600px){
+            .column{
+                width: 100%;
+            }            
+        }
+        h1{
+            text-align: center;
+            color: crimson;
+            font-family: "Sofia", sans-serif;
+            text-shadow: 3px 4px 3px #ce5a5a;
+        }
+        h2{
+            font-family: "Sofia", sans-serif;
+            text-align: center;
+            color: blue;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Media Query</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, velit? Totam aliquid adipisci sequi laudantium, corrupti dolor eaque eos. Quo vel labore dolores odio neque itaque nulla alias nemo vero.</p>
+
+    <div class="row">
+        <div class="column" style="background-color: rgb(72, 140, 143);">
+            <h2 class="font-effect-fire">Class 1</h2>
+            <p>We love Chocolate.</p>
+        </div>
+        <div class="column" style="background-color: rgb(93, 168, 170);">
+            <h2 class="font-effect-fire">Class 2</h2>
+            <p>We love Ice-Creame.</p>
+        </div>
+        <div class="column" style="background-color:  rgb(100, 191, 194);">
+            <h2 class="font-effect-fire">Class 3</h2>
+            <p>We love Fruits.</p>
+        </div>
+        <div class="column" style="background-color: rgb(137, 225, 228);">
+            <h2 class="font-effect-fire">Class 4</h2>
+            <p>We love Chocolate and Ice-Creame.</p>
+        </div>
+    </div>
+</body>
+</html>
